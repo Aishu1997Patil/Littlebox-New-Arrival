@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus-Curve Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <div class="nav">
+        <div class="top-bar">
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-telegram-plane"></i>
+                <i class="fab fa-snapchat-ghost"></i>
+            </div>
+            <div class="menu-logo"><i class="fa-solid fa-bars"></i></div>
+            <div class="play">Download the Littlebox App from <a href="#">Play Store</a> <i class="fas fa-mobile-alt"></i></div>
+        </div>
+
+        <div class="header">
+            <div class="logo">littlebox</div>
+            <div class="nav-right">
+                <a href="#">Account</a>
+                <a href="#">Search</a>
+                <i class="fas fa-search" id="search"></i>
+                <a href="#">Cart</a>
+                <i class="fas fa-shopping-cart" id="cart"></i>
+            </div>
+            
+        </div>
+        <div class="nav-bar">
+            <a href="#">Pick A Mood</a>
+            <a href="#">Men's <span class="new">New</span></a>
+            <a href="#">Clothing</a>
+            <a href="#">Footwear</a>
+            <a href="#">Plus-Curve</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Shop by Videos</a>
+            <a href="#">Next Day Dispatch</a>
+            <a href="#">Influencer Program</a>
+            <a href="#">Exchanges</a>
+            <a href="#">Track Your Order</a>
+        </div>
+    </div>
+
+    <!-- Navbar End -->
+    <div class="image-container">
+        <img src="final project img.webp" alt="bannerImage">
+    </div>
+    
+    <header class="product-header">
+        <h1>Next Day Dispatch</h1>
+        <span>20 products</span>
+    </header>
+        
+    <div class="sort-dropdown">
+        <select id="sortOptions">
+            <option value="featured">Featured</option>
+            <option value="best-selling">Best Selling</option>
+            <option value="low-high">Price: Low to High</option>
+            <option value="high-low">Price: High to Low</option>
+            <option value="date-old-new">Date: Old to New</option>
+            <option value="date-new-old">Date: New to Old</option>
+        </select>
+            </div>
+    <div class="container">
+        <aside class="filter-sidebar">
+            <h2>Filter ⏩</h2>
+            <div class="filter-section">
+                <label for="out-of-stock">Out of stock</label>
+                <button class="btn show">Show</button>
+                <button class="btn hide">Hide</button>
+            </div>
+            <div class="filter-section">
+                <label for="price">Price</label>
+                <div class="price-range">
+                    <input type="number" value="0">
+                    <input type="number" value="1499">
+                </div>
+                <input type="range" min="0" max="1499" value="0">
+            </div>
+            <div class="filter-section">
+                <label for="product-type">Product type</label>
+                <input type="checkbox" id="Clothing"> Clothing
+            </div>
+            <div class="filter-section">
+                <label for="product-type">Size</label>
+                <input type="checkbox"> 1XL <br>
+                <input type="checkbox"> 2XL<br>
+                <input type="checkbox"> 3XL <br>
+                <input type="checkbox"> 4XL <br>
+                <input type="checkbox"> 0XL <br>
+            </div>
+            
+        </aside>
+
+
+        <main class="product-list">
+            <!-- Product Section -->
+            <section class="products">
+                <!-- product1 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide1" checked>
+                        <input type="radio" name="carousel" id="slide2">
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img1">
+                               <img src="58_7_540x.webp">
+                                </div>
+                            <div class="carousel-image" id="img2">
+                                <img class="rimage__image fade-in lazyautosizes lazyloaded" data-widths="[180, 220, 300, 360, 460, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="0.833984375" data-sizes="auto" alt="Aesthetics Top With Wide legged Trouser in White" data-srcset="//littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_180x.jpg?v=1676032764 180w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_220x.jpg?v=1676032764 220w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_300x.jpg?v=1676032764 300w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_360x.jpg?v=1676032764 360w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_460x.jpg?v=1676032764 460w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_540x.jpg?v=1676032764 540w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_720x.jpg?v=1676032764 720w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_900x.jpg?v=1676032764 900w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_1080x.jpg?v=1676032764 1080w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_1296x.jpg?v=1676032764 1296w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_1512x.jpg?v=1676032764 1512w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_1728x.jpg?v=1676032764 1728w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_2048x.jpg?v=1676032764 2048w" sizes="677px" srcset="//littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_180x.jpg?v=1676032764 180w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_220x.jpg?v=1676032764 220w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_300x.jpg?v=1676032764 300w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_360x.jpg?v=1676032764 360w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_460x.jpg?v=1676032764 460w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_540x.jpg?v=1676032764 540w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_720x.jpg?v=1676032764 720w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_900x.jpg?v=1676032764 900w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_1080x.jpg?v=1676032764 1080w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_1296x.jpg?v=1676032764 1296w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_1512x.jpg?v=1676032764 1512w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_1728x.jpg?v=1676032764 1728w, //littleboxindia.com/cdn/shop/products/WhatsAppImage2022-11-28at6.29.26PM_1_2048x.jpg?v=1676032764 2048w" alt="Dress 2">
+                            </div>
+                        </div>
+                        <!-- Left and right control arrows -->
+                        <label for="slide1" class="carousel-control left">&#10094;</label>
+                        <label for="slide2" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product2 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide3">
+                        <input type="radio" name="carousel" id="slide4">
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img3">
+                                <img src="c308c532983c91e7177a2fa2a92edfd0_460x.webp" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img4">
+                                <img src="6e3570a0ed40cc0801bb2ec496767596_460x.webp" alt="Dress 2">
+                            </div>
+                        </div>
+                        <!-- Left and right control arrows -->
+                        <label for="slide3" class="carousel-control left">&#10094;</label>
+                        <label for="slide4" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold out</span></p>
+                </div>
+                <!-- product3 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide5">
+                        <input type="radio" name="carousel" id="slide6">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="4b36f37aaef70592ea593977b94d9e84_460x.webp" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="aae34e5cc7245540a8addd900a6ea909_460x.webp" alt="Dress 2">
+                            </div>
+                        </div>
+                        <!-- Left and right control arrows -->
+                        <label for="slide5" class="carousel-control left">&#10094;</label>
+                        <label for="slide6" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product4 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide7">
+                        <input type="radio" name="carousel" id="slide8">
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="89a0937a370ef5dc3d7ccb8c2c652bab_540x.webp" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="Next Day Dispatch/53f73bb49feefb8d81da92b47fccc612_180x.jpg" alt="Dress 2">
+                            </div>
+                        </div>
+                        <!-- Left and right control arrows -->
+                        <label for="slide7" class="carousel-control left">&#10094;</label>
+                        <label for="slide8" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product5 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide9">
+                        <input type="radio" name="carousel" id="slide10">
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="Next Day Dispatch/18533e307f138eb1b4f26b1480c9618d_220x.jpg" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img class="rimage__image fade-in lazyautosizes lazyloaded" data-widths="[180, 220, 300, 360, 460, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="0.8" data-sizes="auto" alt="" data-srcset="//littleboxindia.com/cdn/shop/products/TP1293_Combo_180x.jpg?v=1680880713 180w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_220x.jpg?v=1680880713 220w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_300x.jpg?v=1680880713 300w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_360x.jpg?v=1680880713 360w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_460x.jpg?v=1680880713 460w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_540x.jpg?v=1680880713 540w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_720x.jpg?v=1680880713 720w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_900x.jpg?v=1680880713 900w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_1080x.jpg?v=1680880713 1080w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_1296x.jpg?v=1680880713 1296w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_1512x.jpg?v=1680880713 1512w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_1728x.jpg?v=1680880713 1728w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_2048x.jpg?v=1680880713 2048w" sizes="676.8000000000001px" srcset="//littleboxindia.com/cdn/shop/products/TP1293_Combo_180x.jpg?v=1680880713 180w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_220x.jpg?v=1680880713 220w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_300x.jpg?v=1680880713 300w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_360x.jpg?v=1680880713 360w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_460x.jpg?v=1680880713 460w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_540x.jpg?v=1680880713 540w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_720x.jpg?v=1680880713 720w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_900x.jpg?v=1680880713 900w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_1080x.jpg?v=1680880713 1080w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_1296x.jpg?v=1680880713 1296w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_1512x.jpg?v=1680880713 1512w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_1728x.jpg?v=1680880713 1728w, //littleboxindia.com/cdn/shop/products/TP1293_Combo_2048x.jpg?v=1680880713 2048w">
+                            </div>
+                        </div>
+                        <!-- Left and right control arrows -->
+                        <label for="slide9" class="carousel-control left">&#10094;</label>
+                        <label for="slide10" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold out</span></p>
+                </div>
+                <!-- product6 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide11">
+                        <input type="radio" name="carousel" id="slide12">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img class="rimage__image fade-in lazyautosizes lazyloaded" data-widths="[180, 220, 300, 360, 460, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="0.8" data-sizes="auto" alt="" data-srcset="//littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_180x.jpg?v=1700650200 180w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_220x.jpg?v=1700650200 220w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_300x.jpg?v=1700650200 300w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_360x.jpg?v=1700650200 360w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_460x.jpg?v=1700650200 460w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_540x.jpg?v=1700650200 540w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_720x.jpg?v=1700650200 720w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_900x.jpg?v=1700650200 900w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_1080x.jpg?v=1700650200 1080w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_1296x.jpg?v=1700650200 1296w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_1512x.jpg?v=1700650200 1512w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_1728x.jpg?v=1700650200 1728w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_2048x.jpg?v=1700650200 2048w" sizes="676.8000000000001px" srcset="//littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_180x.jpg?v=1700650200 180w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_220x.jpg?v=1700650200 220w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_300x.jpg?v=1700650200 300w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_360x.jpg?v=1700650200 360w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_460x.jpg?v=1700650200 460w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_540x.jpg?v=1700650200 540w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_720x.jpg?v=1700650200 720w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_900x.jpg?v=1700650200 900w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_1080x.jpg?v=1700650200 1080w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_1296x.jpg?v=1700650200 1296w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_1512x.jpg?v=1700650200 1512w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_1728x.jpg?v=1700650200 1728w, //littleboxindia.com/cdn/shop/products/65bc40006aaff0faf76ea9c7306e3ab4_2048x.jpg?v=1700650200 2048w">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="Next Day Dispatch/491722ed04c01a7f0e53854a589eed7a_180x.jpg" alt="Dress 2">
+                            </div>
+                        </div>
+                        <!-- Left and right control arrows -->
+                        <label for="slide11" class="carousel-control left">&#10094;</label>
+                        <label for="slide12" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product7 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide13">
+                        <input type="radio" name="carousel" id="slide14">
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="f93373357aa98a19fddc583050d27f20_300x (1).webp" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="4db1a8d9e79b7d5dcb8fc256eedf4bfd_540x.webp" alt="Dress 2">
+                            </div>
+                        </div>
+                        <!-- Left and right control arrows -->
+                        <label for="slide13" class="carousel-control left">&#10094;</label>
+                        <label for="slide14" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold out</span></p>
+                </div>
+                <!-- product8 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide15">
+                        <input type="radio" name="carousel" id="slide16">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="Next Day Dispatch/be336481f1a0d4aa1376f5374b23855a_180x.jpg" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="be336481f1a0d4aa1376f5374b23855a_540x.webp" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide15" class="carousel-control left">&#10094;</label>
+                        <label for="slide16" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product9 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide17">
+                        <input type="radio" name="carousel" id="slide18">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="Next Day Dispatch/daba39154871f5fe342f59378ff5deb2_180x.jpg" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="32ebcc2c6de1ea588bd0355c616bef66_300x.webp" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide17" class="carousel-control left">&#10094;</label>
+                        <label for="slide18" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product10 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in Stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide19">
+                        <input type="radio" name="carousel" id="slide20">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="Next Day Dispatch/adc7162b1ac3db35d8004b912911a459_220x.jpg" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="920db5aa62ad7718d7de1577bdc54058_540x.webp" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide19" class="carousel-control left">&#10094;</label>
+                        <label for="slide20" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold Out</span></p>
+                </div>
+                <!-- product11 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide21">
+                        <input type="radio" name="carousel" id="slide22">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="Next Day Dispatch/dca43e3786cd1e7274e16e505c5b8b3a_180x.jpg" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="1290ef713dd2670f98a4ae1279cb5656_540x.webp" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide21" class="carousel-control left">&#10094;</label>
+                        <label for="slide22" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product12 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide23">
+                        <input type="radio" name="carousel" id="slide24">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="7178e270845c7f1b80189bd344da9809_540x.webp" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="Next Day Dispatch/247ccd81198c1179098dd08d1a17fcc4_717fede4-2913-4013-94ed-e7cbc22fd1d4_180x.jpg" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide23" class="carousel-control left">&#10094;</label>
+                        <label for="slide24" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product13 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in Stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide25">
+                        <input type="radio" name="carousel" id="slide26">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="c6fed3e2825c6e656794826e9399397c_220x (1).avif" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="c6fed3e2825c6e656794826e9399397c_220x.avif" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide25" class="carousel-control left">&#10094;</label>
+                        <label for="slide26" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold out</span></p>
+                </div>
+                <!-- product14 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide27">
+                        <input type="radio" name="carousel" id="slide28">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="47c_220x.avif"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="47c_460x.webp"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide27" class="carousel-control left">&#10094;</label>
+                        <label for="slide28" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product15 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in Stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide29">
+                        <input type="radio" name="carousel" id="slide30">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="247a_460x.webp"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="247b_460x.webp"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide29" class="carousel-control left">&#10094;</label>
+                        <label for="slide30" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold out</span></p>
+                </div>
+                <!-- product16 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide31">
+                        <input type="radio" name="carousel" id="slide32">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="cacc500a0e979a13390534c7e9c2c37d_460x.jpg"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="fba7ad76b9538113d22bfa4b6e7ad9cb_460x.jpg"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide31" class="carousel-control left">&#10094;</label>
+                        <label for="slide32" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product17 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide33">
+                        <input type="radio" name="carousel" id="slide34">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="30b34ba0694f9d80ce4240e3323b5906_460x.webp"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="49e87cf65ca26045ec9c755383e41eea.webp"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide33" class="carousel-control left">&#10094;</label>
+                        <label for="slide34" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product18 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide35">
+                        <input type="radio" name="carousel" id="slide36">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="143c_460x.webp"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="143d_220x.avif"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide35" class="carousel-control left">&#10094;</label>
+                        <label for="slide36" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product19 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide37">
+                        <input type="radio" name="carousel" id="slide38">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="e85d6a9d5de65f1fe0f999acbefaccc0_460x.webp"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="3dc4698708722eed07eae2f4d84bf5c2.webp"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide37" class="carousel-control left">&#10094;</label>
+                        <label for="slide38" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product20 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide39">
+                        <input type="radio" name="carousel" id="slide40">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="Next Day Dispatch/ab16619963fd0e747160a8b5bfdd2599_180x.jpg"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="1a2caccf8d44440b3633cff5e16c3fd7_540x.webp"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide39" class="carousel-control left">&#10094;</label>
+                        <label for="slide40" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+            </section>
+        </main>
+    </div>
+        <!-- Footer part start -->
+        <div class="footer">
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">Flats & Flatforms</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Trousers</a></li>
+                    <li><a href="#">Oxfords & Boots</a></li>
+                    <li><a href="#">Heels & Platforms</a></li>
+                    <li><a href="#">Matching Sets</a></li>
+                    <li><a href="#">Best Selling</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Exchanges</a></li>
+                    <li><a href="#">Exchange Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Do not sell or share my personal information</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <p>© Littlebox India 2022</p>
+                <div class="logo">littlebox</div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a><br><br>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-quora"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-snapchat"></i></a>
+                </div>
+            </div>
+
+            </div>
+            <hr>
+            <div class="footer-end">
+                <p>© 2024 Good Tribe Private Limited. All rights Reserved.</p>
+                <div class="endchips">
+                <img src="VISA.svg" alt="VISA">
+                <img src="Paytm.svg" alt="VISA">
+                <img src="ru-pay.svg" alt="VISA">
+                <img src="i-Card.svg" alt="VISA">
+               
+            </div>
+            </div>
+            
+            <!-- Footer End -->
+   
+</body>
+
+</html>
+
+
+
